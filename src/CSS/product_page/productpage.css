@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.product_content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 10px 100px;
+}
+.lip{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-image: url(./Lips.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Face{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-image: url(./face.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Eye{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-image: url(./eyes.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Accessories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 20px;
+    background-image: url(./Accessories.png) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.img_product{
+    min-width: 150px;
+    height: 110px;
+
+}
+.box_create{
+    display: flex;
+    justify-content: space-between;
+    border: none;
+    font-size: 12px;
+    margin-left: 30px;
+    height: 50px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    width: 30%;
+    padding-top: 10px;
+
+}
+.search_box_create{
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-left: 10px;
+}
+.input_search_header{
+    border: none;
+    font-size: 15px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    width: 100%;
+    outline: none;
+}
+.text_select_Products{
+    padding-top: 10px;
+}
+.text_product_content{
+    background-color: #FBE1E1;
+    height: 40px;
+    padding-top: 10px;
+    padding-left: 30px;
+    font-size: 18px;
+    margin-top: 30px;
+}
+.select_Products{
+    display: flex;
+    padding: 10px 30px;
+    gap:30px
+}
+.button_select_Products{
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 13px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_selectProducts{
+    display:flex;
+    gap: 60px;
+}
+.button_select_Products:hover{
+    color: black;
+    font-weight:bold ;
+    background-color: pink;
+
+}
+.product{
+    display: flex;
+
+}
+.productpage_lipstick{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:200px
+}
+.img_product_lip{
+    width:100% ;
+    height: 240px;
+    position: absolute;
+    z-index: 1;
+    border-radius: 7px;
+    
+}
+.a12{
+    background-color: rgba(216, 210, 210, 0.5);
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    padding: 2px 10px;
+    border-radius: 0px 0px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+    border: 1px solid black;
+}
+.product_lip{
+    border: none;
+    border-radius: 4px 4px 10px 10px;
+    min-height: 340px;
+    position: relative;
+    width: 17%;
+    margin-left: 10px;
+    border: 1px solid rgb(115, 115, 115);
+}
+.color_product_lip{
+    color: rgb(125, 51, 51);
+    
+    font-size: 16px;
+    font-weight: bold;
+}
+.cost_product_lip{
+    color: #530e19;
+}
+.fa-regular{
+    font-size: 12px;
+}
+.product{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 200px;
+    width: 100%;
+}
+.icon_product_lip{
+    display: flex;
+    justify-content: space-between;
+}
+.icon_lip_product{
+    display: flex;
+}
+.cart_icon{
+    font-size: 12px;
+    
+    border: 1px solid salmon;
+    border-radius: 50%;
+    padding: 1px 3px;
+    background-color:salmon ;
+    color: white;
+    padding-top: 3px;
+}
+.heart_icon{
+    border: 1px solid salmon;
+    border-radius: 50%;
+    padding: 2px 4px;
+    background-color:salmon ;
+    color: white;
+}
+.icon_lip_product{
+    display: flex;
+    gap:10px;
+
+}

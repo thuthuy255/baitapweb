@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.content_header{
+    box-sizing: border-box;
+    background-color: rgb(255, 245, 252) ;
+    margin-top: -20px;
+    padding-bottom: 6px;
+}
+.header_link{
+    height: 40px;
+    padding: 10px 20px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    color: white;
+    background-color: #f38f9e;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+}
+.fa-regular{
+    padding-top: 3px;
+}
+.contact_header{
+    display: flex;
+    color: white;
+    gap:15px
+}
+.icon_contact_header{
+    padding-top: 4px;
+    display: flex;
+    gap:10px
+}
+.call_contact_header{
+    padding-top: 1px;
+
+    display: flex;
+    gap:4px
+}
+.img_logo {
+    width: 30%;
+    height: 55px;
+    padding-top: 20px;
+}
+.img_card1{
+    padding-top:5px ;
+    width: 30px;
+    height: 37px;
+}
+.img_card{
+    width: 33px;
+}
+.link_language{
+    display: flex;
+    gap:5px;
+    padding-top: 38px;
+    
+}
+.fa-solid{
+    padding-top: 3px;
+    
+}
+.img_header{
+    display: flex;
+    padding-top: 20px;
+    gap:30px
+}
+.content{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+
+    
+}
+.header_up{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+.link_header{
+    display: flex;
+    padding-top: 16px;
+    gap:40px
+}
+.img_content{
+    display: flex;
+    gap:40px
+}
+.header_down{
+    padding-top: 15px;
+    justify-content: center;
+    display: flex;
+    gap: 70px;
+}
+.text_header_down{
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+}
+.input_search_header{
+    border: none;
+    padding-left: 10px;
+    font-size: 15px;
+    height: 30px;
+    background-color: #EBEBEB;
+    border-radius: 6px;
+    width: 90%;
+}
+.link_text{
+    text-decoration: none;
+    color: black;
+
+}
+.link_text:hover{
+    text-decoration:underline;
+    color:rgb(128, 128, 131);
+
+}
+.img_icon{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #FF6079;
+    background-color: #FF6079;
+    border-radius: 0 6px 6px 0;
+    padding-left: 5px;
+    margin-left: -20px; 
+        padding-top: 3px;
+}
+.input_header{
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+.banner_header{
+    background-image: url(../header/banner_bs.png);
+    width: 100%;
+    height: 150px;
+    display: flex;
+    padding-top: 70px;
+    padding-left: 40px;
+    gap:10px
+}

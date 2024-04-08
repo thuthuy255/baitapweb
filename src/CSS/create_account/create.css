@@ -1,0 +1,84 @@
+/* .content{
+    background-color: #FAFAFA;
+    margin-top: 80px;
+    
+} */
+.content_password_login{
+    margin:0 auto;
+    border: 1px solid #E6E6E6;
+    border-radius: 5px;
+    width: 30%;
+    min-height: 300px;
+    margin-bottom: 50px;
+    box-shadow: 3px 3px 1px rgb(244, 244, 244);;
+    margin-top: 50px;       
+}
+.input_content_password{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+    padding-left: 20px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: white;
+}
+.input_password_content{
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    width: 90px;
+    background-color: white;
+}
+.input_password_content:focus-visible{
+    outline: none;
+}
+.input_login_password{
+    border: 1px solid #a8a7a7;
+    padding:10px 7px;
+    width: 90%;
+    height: 40px;
+    display: flex;
+    gap:190px;
+    border-radius: 6px;
+}
+.remember_password_content{
+    display: flex;
+    gap:5px;
+}
+.remember_password_login{
+    display: flex;
+    gap:100px;
+    padding:17px 20px;
+    background-color: white;
+}
+.button_login_content{
+    border: 1px solid #a8a7a7;
+    background-color: #F38F9E;
+    border-radius: 5px;
+    width: 85%;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    color: white;
+    margin-left: 20px;
+    
+}
+.find_login{
+    padding-top: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.subcribe_content_text{
+    width: 28%;
+    font-size: 13px;
+}
+.input_subcribe_content_text{
+    width: 300px;
+    height: 40px;
+    border-radius: 20px;
+    border: 1px solid #a8a7a7;
+    padding-left: 10px;
+}
+.input_subcribe_content_text:focus-visible{
+    outline: 0;
+}

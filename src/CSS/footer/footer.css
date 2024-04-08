@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    box-sizing: border-box;
+    background-color: #F7B2B5;
+}
+.content_footer{
+    padding-top: 20px;
+    margin-top: 200px;
+}
+.footer_content{
+    margin-left: 25px;
+}
+.text{
+    font-size: 30px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(67, 64, 64);
+    font-style: italic;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+.button{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.button_email{
+    height: 35px;
+    border: 1px solid black;
+    font-size: 13px;
+    background-color: #fafafa;
+    width: 30%; 
+    outline: none; 
+    border-radius: 20px;
+    padding-left: 10px;
+}
+.button_login{
+    border: 1px solid black;
+    font-size: 15px;
+    background-color: #F7B2B5;
+    border-radius: 20px;
+    height: 35px;
+    width: 10%;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-top: 8px;
+}
+.login_a{
+    text-decoration: none;
+    color: black;
+}
+.content1{
+    display: flex;
+    margin-top: 40px;
+    gap: 80px;
+    justify-content: space-between;
+}
+.content_hotline{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer_p{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.content_support{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.support_text{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.content_pay{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.pay_photo{
+    width: 90%;
+    height: 40px;
+}
+.content_pay_follow{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+.content2_footer_logo{
+    padding-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+.fa-brands{
+    font-size: 20px;
+}
+.line{
+    border-bottom: 1px solid white;
+    padding-top: 20px;
+}
+.footer_content3{
+    margin-left: 25px;
+    padding-top: 30px;
+}
+.content3{
+    width: 63%;
+    padding-bottom: 20px;
+}
